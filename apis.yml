@@ -1,7 +1,28 @@
 aid: reliv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reliv.png
 name: Reliv
-description: Reliv is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Reliv is a digital medical ecosystem operating in Ecuador and Mexico that aims
+  to simplify healthcare management for clinics, hospitals, doctors, and patients.
+  Its platform combines a Hospital Information System (HIS) for hospital and clinic
+  operations, an Electronic Health Record (EHR) offering digital clinical histories
+  with online scheduling and electronic prescriptions, and a patient-facing
+  Pacientes mobile app for appointments, digital prescriptions, and offers. Reliv
+  positions itself as the first integrated digital medical ecosystem of Ecuador and
+  runs a Reliv Academy training platform. Surfaced as a 500 Global portfolio company
+  and added to the API Evangelist network as a lead; no public API, developer portal,
+  or documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/reliv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health Care
+- Healthcare
+- Electronic Health Records
+- Hospital Information System
+- Digital Health
+- Medical Software
+- Ecuador
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,14 @@ maintainers:
 common:
 - type: Website
   url: https://reliv.la
+- type: Support
+  url: https://reliv.la/contacto-reliv/
+- type: TermsOfService
+  url: https://reliv.la/wp-content/uploads/2026/05/2026-01Ene-07-Aviso-Legal-WebInformativa-Reliv-vnp.pdf
+- type: DomainSecurity
+  url: security/reliv-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
